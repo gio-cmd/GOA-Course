@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
+h1{
+    font-family: "EB Garamond";
+    font-style: italic;
+    color: darkred;
+}
+p{
+    font-family: "Goudy Bookletter 1911";
+    font-size: 20px;
+    color: red;
+    font-style: italic;
+}
+button{
+    font-size: large;
+}
