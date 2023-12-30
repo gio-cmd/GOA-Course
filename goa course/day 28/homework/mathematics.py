@@ -10,5 +10,7 @@ elif symbol == "*":
     print(x * y) 
 elif symbol == "/":
     print(x / y)
+elif symbol == "√":
+    print(math.sqrt(x), math.sqrt(y))
 else:
     print("Invalid operation selected")  
