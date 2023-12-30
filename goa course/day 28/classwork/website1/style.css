@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+.header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Lobster;
+}
+.santa{
+    margin-top: 60px;
+}
+.santa h2{
+    font-family: Lobster;
+    color: wheat;
+}
+.santa p{
+    font-family: Amatic SC;
+    color: white;
+    font-weight: bolder;
+}
+.image{
+    margin-top: 40px;
+}

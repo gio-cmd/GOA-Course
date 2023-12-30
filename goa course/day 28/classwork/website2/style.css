@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+li a{
+    color: lightblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+section {
+    padding: 20px;
+}
+
+.hero {
+    background-color: #f2f2f2;
+}
+.form{
+    display: block;
+}
+.hero h2{
+    color: rgb(122, 189, 22);
+}
+.hero p{
+    color: lightblue;
+    font-weight: 999;
+}
+.services{
+    background-color: rgb(237, 229, 229);
+}
+.services h2{
+    color: rgb(124, 232, 109);
+    font-weight: bolder;
+}
+.services p{
+    color: blue;
+    font-weight: 500;
+}
+.about h2{
+    color: green;
+}
+.about p{
+    color: rgb(42, 42, 134);
+}
+form input{
+    display: block; 
+    width: 100%; 
+    margin-bottom: 10px;
+}
+form #message{
+    width: 100%;
+    height: 80px;
+}
+form input,label,button{
+    margin-left: 20px;
+}
