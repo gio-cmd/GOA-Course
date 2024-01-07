@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #0E1D16;
+    background-image: url(https://scontent.ftbs6-2.fna.fbcdn.net/v/t39.30808-6/408864179_342479481868687_2724919989645877908_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeESW2M70pyw8umCDPgtNfOdW7tgzUOr-gxbu2DNQ6v6DKvUQKdBlmnoWytZ_PK1R56TaJiu8ThGO3G7SSsgjg7z&_nc_ohc=wzUalCw6Zr4AX-0aQAO&_nc_ht=scontent.ftbs6-2.fna&oh=00_AfCrH43KYyGemAIXpAa0bkv4-2mc79MRgKm14HeRjsESXA&oe=659F0993);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation .fe {
+    display: flex;
+}
+.fe{
+    margin-left: auto;
+}
+.navigation .fe a {
+    margin-left: 15px;
+}
+
+.white_text {
+    color: white;
+    font-family: Poppins;
+}
+.fs a{
+    padding-left: 100px;
+    font-size: xx-large;
+    text-decoration: none;
+}
+.fe a{
+    padding-right: 30px;
+    font-size: large;
+    text-decoration: none;
+}
+.s1st{
+    color: #2B8734;
+}
+.s2st{
+    color: #FFDAB9;
+}
+.introduction{
+    color: #60B46B;
+    padding-left: 100px;
+    padding-top: 400px;
+    font-family: Montserrat;
+}
+.introduction h1{
+    font-size: xxx-large;
+    max-width: 650px;
+    color: #60B469;
+}
+.title{
+    text-align: center;
+    margin-top: 200px;
+    margin-right: 4cm;
+    color: whitesmoke;
+    font-size: xxx-large;
+    font-family: Montserrat;
+}

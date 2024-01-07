@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  form {
+    max-width: 600px;
+    margin: 20px;
+  }
+
+fieldset {
+    border: 2px solid #333;
+    padding: 10px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: darkblue;
+}
+
+label {
+    display: inline-block;
+    width: 150px; 
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 150px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+div{
+    max-width: 400px;
+}
